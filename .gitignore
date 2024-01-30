@@ -1,26 +1,27 @@
-# Logs
-logs
+# NODE MODULES & PACKAGE MANAGERS
+node_modules/
+
+# BUILD OUTPUTS
+/dist/
+/build/
+/lib/
+/out/
+/.parcel-cache/
+
+# DOTFILES & LOCAL CONFIGS
+*.env
+
+# VARIOUS LOG FILES
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-.env
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# EDITOR & SYSTEM FILES
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
 
+# IDE SPECIFIC FILES
+.idea/
+.vscode/
+
+# MISCELLANEOUS
+*.tmp
+*.temp
